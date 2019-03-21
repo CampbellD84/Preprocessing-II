@@ -168,6 +168,19 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  border-bottom: 0.2rem dashed #C0C0C0;
+  margin: 2rem 0 0 0;
+  padding: 2rem 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+header nav a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #212529;
+  margin-left: 2rem;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
