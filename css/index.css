@@ -171,7 +171,7 @@ img {
 header {
   border-bottom: 0.2rem dashed #C0C0C0;
   margin: 2rem 0 0 0;
-  padding: 2rem 0 0 0;
+  padding: 2rem 0 2rem 0;
   display: flex;
   justify-content: space-between;
 }
