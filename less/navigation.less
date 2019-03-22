@@ -6,7 +6,12 @@ header {
     padding: 2rem 0 2rem 0;
     .display-flex;
     .justify-align(space-between);
-    
+    @media @mobile {
+        .flex-dir(column, center);
+        h1 {
+            margin: 0 0 2rem 0;
+        }
+    }
     nav {
         a {
             font-size: 1.8rem;
