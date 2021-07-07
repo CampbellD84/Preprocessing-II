@@ -1,1 +1,23 @@
 // Navigation Styles here
+
+header {
+    border-bottom: 0.2rem dashed @navigation-border;
+    margin: 2rem 0 0 0;
+    padding: 2rem 0 2rem 0;
+    .display-flex;
+    .justify-align(space-between);
+    @media @mobile {
+        .flex-dir(column, center);
+        h1 {
+            margin: 0 0 2rem 0;
+        }
+    }
+    nav {
+        a {
+            font-size: 1.8rem;
+            text-decoration: none;
+            color: @font-color;
+            margin-left: 2rem;
+        }
+    }
+}

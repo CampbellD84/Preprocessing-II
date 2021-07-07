@@ -1,1 +1,29 @@
 // Mixins in here
+
+.display-flex() {
+    display: flex;
+}
+
+.justify-align(@justify) {
+    justify-content: @justify;
+}
+
+.flex-dir(@direction; @align-itm) {
+    flex-direction: @direction;
+    align-items: @align-itm;
+}
+
+.btn-settings(@btn-color; @brdrad) {
+    border-radius: @brdrad;
+    background-color: @btn-color;
+    color: @white;
+    border: 0;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    width: 75%;
+    height: 3.5rem;
+}
